@@ -1,0 +1,18 @@
+.banner{
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img1{
+    width: 100%;
+    object-fit: fill;
+    margin-bottom: -150px;
+    z-index: -1;
+}
+.home_product_row{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    z-index: 1;
+}

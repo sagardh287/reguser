@@ -1,0 +1,37 @@
+
+.registercontainer{
+    background-color: grey;
+    border: black;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registertext{
+    font-size: 30px;
+    color: blueviolet;
+}
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.registerinput{
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin:5px;
+}
+.signupbtn{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}

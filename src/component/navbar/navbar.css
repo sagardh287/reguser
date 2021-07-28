@@ -1,0 +1,53 @@
+.nav{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbarcontent{
+    padding: 0 100px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbarreg{
+    display: flex;
+}
+.login{
+margin-right: 10px;
+background-color: skyblue;
+padding: 10px;
+
+border-radius: 10px;
+}
+.Register{
+margin-right: 20px;
+background-color: skyblue;
+
+border-radius: 10px;
+padding: 10px;
+}
+#name{
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.navbarimgcontent{
+    text-align: center;
+    margin-top: 20px;
+}
+.t1{
+    color: tan;
+    text-align: center;
+}
+.navbarimg{
+    margin: 30px;
+}

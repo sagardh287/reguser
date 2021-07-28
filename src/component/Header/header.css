@@ -1,0 +1,109 @@
+.headerpage{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.header{
+    width: 100%;
+    background-color: #080500 ;
+    display: flex;
+    align-items: center;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    
+}
+.headerlogo{
+    width: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 18px;
+
+}
+.headersearch{
+
+    display: flex;
+   flex: 1;
+    align-items: center;
+    border-radius: 24px;
+    padding:10px 120px;
+}
+.headersearchinput{
+    padding: 3px;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+}
+.headersearchicon{
+    height: 30px  !important;
+    border-radius: 10px;
+    width: 30px  !important;
+    background-color: white;
+    cursor: pointer;
+}
+.headernav{
+    display: flex;
+    justify-content: center;
+}
+.headeroptionlogin{
+margin-right: 15px;
+color: #b3dee5;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(51, 43, 56);
+    font-weight: 800;
+    cursor: pointer;
+}
+.headeroptionRegister{  
+    margin-right: 40px;
+    color:  #b3dee5;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(51, 43, 56);
+    font-weight: 800;
+    cursor: pointer;
+}
+.headeroptioncart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(245, 229, 7);
+    margin-right: 15px;
+    width: 50px;
+    background-color: rgb(51, 43, 56);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hederoptionlinetwo{
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+.shoppingcart{
+    font-size: 32px !important;
+}
+.nav{
+width: 100%;
+margin-top: 50px;
+background-color: rgb(29, 26, 31);
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.navul{
+    list-style: none;
+    display: flex;
+    padding-top: 10px;
+}
+.navli{
+    margin-right: 100px;
+    font-weight: 700;
+    color: #b3dee5;
+    cursor: pointer;
+}
