@@ -19,28 +19,53 @@ export default function Header() {
                     <span className="hederoptionlinetwo headeroptioncount">0</span>
                 </div>
                 <div className="headernav">
-                    <Link to="login">
-                        <div className="headeroptionlogin">
-                            <span>Login</span>
-                        </div>
-                    </Link>
+                    <ul className="headernavul">
+                        <Link to="login" >
+                        <li className="headernavli">Login</li>
+                        </Link>
+                        <li className="headernavli">Register
+                        <ul className="dropdownregister">
 
-                    <Link to="register">
-                        <div className="headeroptionRegister">
-                            <span>Register</span>
-                        </div>
-                    </Link>
-
-                    </div>
-                </div>
-                <div className="nav">
-                    <ul className="navul">
-                        <li className="navli">HOME</li>
-                        <li className="navli">SERVICES</li>
-                        <li className="navli">MEDIA</li>
-                        <li className="navli">CONTACT US</li>
+                            <li>Customer</li>
+                            <Link to="register" >
+                            <li>Publisher</li>
+                            </Link>
+                        </ul>
+                        </li>
                     </ul>
                 </div>
+            </div>
+            <div className="nav">
+                <ul className="navul">
+                    <Link to="/">
+                        <li className="navli">HOME</li>
+                    </Link>
+                    <li className="navli navlidrop">SERVICES
+                    <ul className="dropdown">
+                        <Link to="/online_ordering" className="headernavulink">
+                        <li>Online Ordering</li>
+                        </Link>
+                        <Link to="/free_recipe" className="headernavulink">
+                        <li>Free Recipe</li>
+                        </Link>
+                        <Link to="/table_reservation" className="headernavulink">
+                        <li>Table Reservation</li>
+                        </Link>
+                        <Link to="/customer_management" className="headernavulink">
+                        <li>Customer Management</li>
+                        </Link>
+                        <Link to="/logistic_management" className="headernavulink">
+                        <li>Logistic Management</li>
+                        </Link>
+                        <Link to="/inventory_management" className="headernavulink">
+                        <li>Inventory Management</li>
+                        </Link>
+                    </ul>
+                    </li>
+                    <li className="navli">MEDIA</li>
+                    <li className="navli">CONTACT US</li>
+                </ul>
+            </div>
         </div>
 
     )

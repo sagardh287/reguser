@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/images/bnb.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -48,33 +48,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-   ->
+
   </body>
 </html>
 
-<script>
-  axios.post('/orders').then((info) =>{
-      console.log(info)
-      var options = {
-          "key": "rzp_live_XWLTIL7PmeGLye", 
-          "name": "BNB",
-          "description": "Payment Integration",
-          "order_id": info.data.id,
-           
-          "callback_url": "/is-order-completed",
-          "handler": function (response){
-              alert( "Your Payment is success","Your order id is : ", response.razorpay_payment_id);
-              console.log("payment_id : ",response.razorpay_payment_id);
-              console.log("order_id : ", response.razorpay_order_id);
-              console.log("signatures : ",response.razorpay_signature)}
-
-      };
-      var rzp1 = new Razorpay(options);
-      document.getElementById('rzp-button1').onclick = function(e){
-          rzp1.open();
-          e.preventDefault();
-      }
-  })
-  
-</script>
 
